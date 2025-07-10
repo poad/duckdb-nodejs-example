@@ -27,6 +27,6 @@ console.log(`Table created with ${createTableResult.getRows()} rows.`);
 const query = await connection.runAndReadAll('SELECT * FROM data LIMIT 10;');
 const queryRows = query.getRows();
 console.log('First 10 rows from the data table:');
-queryRows.forEach(row => {
-    console.log(row);
+queryRows.forEach((row) => {
+  console.log(row);
 });
