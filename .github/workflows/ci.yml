@@ -30,12 +30,7 @@ jobs:
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
-          run_install: |
-            - recursive: true
-              args: [--no-frozen-lockfile, --strict-peer-dependencies]
+          run_install: true
 
-      - name: Lint
-        run: pnpm lint
-
-      - name: Build
-        run: pnpm build
+      - name: Lint and Build
+        run: pnpm lint && pnpm build
