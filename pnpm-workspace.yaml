@@ -1,2 +1,8 @@
+packages:
+  - .
+
+strictPeerDependencies: true
+noFrozenLockfile: true
+
 onlyBuiltDependencies:
   - esbuild

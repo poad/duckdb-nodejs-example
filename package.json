@@ -7,7 +7,9 @@
   "scripts": {
     "start": "tsx src/index.ts",
     "lint": "eslint",
-    "lint-fix": "eslint --fix"
+    "lint-fix": "eslint --fix",
+    "build": "tsc",
+    "clean": "tsc --build --clean"
   },
   "keywords": [],
   "author": "",
