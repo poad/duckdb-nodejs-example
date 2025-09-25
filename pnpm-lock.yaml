@@ -28,8 +28,8 @@ importers:
         specifier: ^3.2.4
         version: 3.2.4(vitest@3.2.4(@types/node@24.5.2)(tsx@4.20.5))
       aws-cdk:
-        specifier: ^2.1029.2
-        version: 2.1029.2
+        specifier: ^2.1029.3
+        version: 2.1029.3
       eslint:
         specifier: ^9.36.0
         version: 9.36.0
@@ -794,8 +794,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk@2.1029.2:
-    resolution: {integrity: sha512-VkgxcbDLygHtnIuZHDYosQSlYwqmnYogzgB4zq+n6prHUP3Q9R8b/eOeo5bG+5OhE+r6+ZXrrVSmfISyaxA0og==}
+  aws-cdk@2.1029.3:
+    resolution: {integrity: sha512-otRJP5a4r07S+SLKs/WvJH+0auZHkaRMnv1vtD4fpp1figV8Vr9MKdB4QPNjfKdLGyK9f95OEHwVlIW9xpjPBg==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2607,7 +2607,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk@2.1029.2:
+  aws-cdk@2.1029.3:
     optionalDependencies:
       fsevents: 2.3.2
 
