@@ -37,8 +37,8 @@ importers:
         specifier: ^4.0.18
         version: 4.0.18(vitest@4.0.18(@types/node@24.10.13)(jiti@2.6.1)(tsx@4.21.0))
       aws-cdk:
-        specifier: ^2.1106.0
-        version: 2.1106.0
+        specifier: ^2.1106.1
+        version: 2.1106.1
       eslint:
         specifier: ^9
         version: 9.39.2(jiti@2.6.1)
@@ -802,8 +802,8 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  aws-cdk@2.1106.0:
-    resolution: {integrity: sha512-1tyQNnuCnH3nc0QpOL84UNhr+y73fyS75nwSnuy5z7XtRwdsOuqyqcDxd6tvCXkUBA7fdgu8p1FR3hkqrW0GWA==}
+  aws-cdk@2.1106.1:
+    resolution: {integrity: sha512-oSKAvM6a5dVNb+OZoLyjLe2rIkG6URVRHN+cOUZM9uEScYDYPn2KpOQ1iGofH6szsJp76GqQqpiwEpaYXrIHmw==}
     engines: {node: '>= 18.0.0'}
     hasBin: true
 
@@ -2430,7 +2430,7 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.1.0
 
-  aws-cdk@2.1106.0: {}
+  aws-cdk@2.1106.1: {}
 
   balanced-match@1.0.2: {}
 
