@@ -8,7 +8,11 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "inlineSourceMap": true
+    "inlineSourceMap": true,
+    "rootDir": "./src",
+    "types": [
+      "node"
+    ]
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
