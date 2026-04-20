@@ -32,6 +32,6 @@
     "vitest": "^4.1.4"
   },
   "dependencies": {
-    "@duckdb/node-api": "1.5.1-r.1"
+    "@duckdb/node-api": "1.5.1-r.2"
   }
 }
