@@ -1,5 +1,5 @@
-import duckdb from '@duckdb/node-api';
 import assert from 'assert';
+import duckdb from '@duckdb/node-api';
 
 const file = process.env.FILE;
 assert(file, 'FILE environment variable must be set');
