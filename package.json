@@ -17,32 +17,33 @@
   "devEngines": {
     "packageManager": {
       "name": "pnpm",
-      "version": "12.18.0",
+      "version": "12.21.0",
       "onFail": "download"
     },
     "runtime": {
       "name": "node",
-      "version": "^24.22.3",
+      "version": "^26.13.1",
       "onFail": "download"
     }
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@stylistic/eslint-plugin": "^5.10.0",
-    "@types/node": "^24.19.2",
-    "@vitest/coverage-v8": "^4.1.12",
+    "@stylistic/eslint-plugin": "^6.0.0-beta.6",
+    "@types/node": "^26.6.6",
+    "@typescript/native": "npm:typescript@^7.0.2",
+    "@vitest/coverage-v8": "^5.1.0",
     "eslint": "^10.14.0",
     "eslint-import-resolver-typescript": "^4.4.5",
-    "eslint-plugin-import-x": "^4.17.1",
+    "eslint-plugin-import-x": "^4.18.0",
     "eslint-plugin-promise": "^7.3.0",
     "jiti": "^2.7.0",
     "tsx": "^4.23.15",
-    "typescript": "^6.0.3",
+    "typescript": "npm:@typescript/typescript6@^6.0.2",
     "typescript-eslint": "^8.72.1",
-    "vite": "^8.3.5",
-    "vitest": "^4.1.12"
+    "vite": "^8.3.6",
+    "vitest": "^5.1.0"
   },
   "dependencies": {
-    "@duckdb/node-api": "1.5.5-r.4"
+    "@duckdb/node-api": "2.0.0-r.1"
   }
 }
